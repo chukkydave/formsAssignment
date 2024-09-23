@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+</head>
+<body>
+
+    <section>
+        <main>
+            <h1>Student Enrollment Application Form</h1>
+        </main>
+    </section><br><br>
+
+
+    <section>
+        <h3>Student Information:</h3>
+        <form action="submit_page.php" method="post">
+            <div>
+                <label for="fname">Applicant Full Name*</label><br>
+                <input type="text" name="fname" id="fname" placeholder="John Doe" required>
+            </div><br>
+
+            <div>
+                <label for="age">Date of Birth*</label><br>
+                <input type="date" name="age" id="age" required>
+            </div><br>
+
+            <div>
+                <label for="gender">Gender*</label><br>
+                <select name="gender" id="gender" required>
+                    <option value="">--Select your gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="grade">Grade Level*</label><br>
+                <select   select name="grade" id="grade" required>
+                    <option value="Kindergarten">Kindergarten</option>
+                    <option value="grade1">1st Grade</option>
+                    <option value="grade2">2nd Grade</option>
+                    <option value="grade3">3rd Grade</option>
+                    <option value="grade4">4th Grade</option>
+                    <option value="grade5">5th Grade</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="address">Address*</label><br>
+                <input type="text" name="address" id="address"  required>
+            </div><br>
+
+            <div>
+                <label for="country">Applicant Country</label><br>
+                <select name="country" id="country">
+                    <option value="">-- Select your country</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="United states">United States</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="psch">Previous School</label><br>
+                <input type="text" name="psch" id="psch">
+            </div><br>
+
+            <div>
+                <label for="asmc">Any Special Needs or Medical Conditions</label><br>
+                <input type="text" name="asmc" id="asmc">
+            </div><br><br><br><hr><br><br>
+
+
+            <h3>Parent/Guardian Information:</h3>
+            <div>
+                <label   label for="pgname">Parent/Guardian Name* </label><br>
+                <input type="text" name="pgname" id="pgname" placeholder="Jane Doe" required>
+            </div><br>
+
+            <div>
+                <label for="email">Parent/Guardian Email*</label><br>
+                <input type="email" name="email" id="email" placeholder="name@yourmail.com" required>
+            </div><br>
+
+            <div>
+                <label for="pnum">Parent/Guardian Phone Number*</label><br>
+                <input type="tel" name="pnum" id="pnum" placeholder="+012 345 6789" required>
+            </div><br>
+
+            <div>
+                <label for="bcert">Student Birth Certificate*</label><br>
+                <input type="file" name="bcert" id="bcert" required>
+            </div><br>
+
+            <div>
+                <label for="spass">Student Passport Photo*</label><br>
+                <input type="file" name="spass" id="spass" required>
+            </div><br>
+
+            <div>
+                <label for="psign">Parent/Guardian Signature*</label><br>
+                <input type="text" name="psign" id="psign" required>
+            </div><br>
+
+            <div>
+                <label for="sdate">Date*</label><br>
+                <input type="date" name="sdate" id="sdate" required>
+            </div><br>
+
+            <div>
+    
+                <input type="submit" name="submit" id="submit" value="Submit Form">   
+            </div>
+        </form>
+    </section>
+</body><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<footer>
+    <p>©2024 Form Assignment | All Right Reserved</p>
+</footer>
+</html>
